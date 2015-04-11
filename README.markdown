@@ -197,6 +197,10 @@ Meteor server uses SockJs to implement it's DDP server. With this mode, we can g
 
 > With this mode, `path` option has a special meaning. So, thing twice before using `path` option when you are using this option.
 
+Browser support
+====
+If your browser supports [WebSockets](http://caniuse.com/#feat=websockets), this DDP Client can be used in the browser too using [Browserify](http://browserify.org/), 
+
 Unimplemented Features
 ====
 The node DDP client does not implement ordered collections, something that while in the DDP spec has not been implemented in Meteor yet.
